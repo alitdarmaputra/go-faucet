@@ -57,7 +57,7 @@ mv .env.example .env
 Run the program
 
 ```bash
-go run src/main.go
+go run cmd/main.go
 
 # or run using make
 
