@@ -19,6 +19,7 @@ Faucet core engine written in go with discord bot interface
     <li><a href="#%EF%B8%8F-quick-start">⚡️ Quick Start</a>
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#executing-program">Executing Program</a></li>
+    <li><a href="#usage">Usage</a></li>
   </ol>
 </details>
 
@@ -73,3 +74,11 @@ make build
 
 make exec
 ```
+
+## Usage
+
+| Command                 | Description                            | Usage Example                      |
+|-------------------------|----------------------------------------|------------------------------------|
+| `!transfer <wallet_public_key>` | Drips tokens to a specified wallet address. | `!transfer 0x1234abcd...`         |
+| `!h`                    | Displays help information.            | `!h`                              |
+
